@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://b6durm5ve0nyi"]
+
+[ext_resource type="Script" path="res://plastic_cupv_2.gd" id="1_agp5m"]
+[ext_resource type="ArrayMesh" uid="uid://db3efnsgn2dbm" path="res://assets/Plastic_cup_v2_L3.123c043f6ae6-543e-40a0-9771-5a02721edcdf/10907_Plastic_cup_v2_L3.obj" id="2_4yur3"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_f5kvp"]
+
+[node name="PlasticCupv2" type="Node3D"]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
+script = ExtResource("1_agp5m")
+
+[node name="Area3D" type="Area3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Area3D"]
+transform = Transform3D(0.2, 0, 0, 0, -8.74228e-09, 0.2, 0, -0.2, -8.74228e-09, 0, 0, 0)
+mesh = ExtResource("2_4yur3")
+skeleton = NodePath("../..")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.150577, -1.33227e-15)
+shape = SubResource("BoxShape3D_f5kvp")
+
+[connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]

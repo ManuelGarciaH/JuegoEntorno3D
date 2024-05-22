@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dywqqbdmpe1l5"
+path="res://.godot/imported/glass-obj.obj-d7e056b0592a6b301a0ae4a6c64abcce.mesh"
+
+[deps]
+
+files=["res://.godot/imported/glass-obj.obj-d7e056b0592a6b301a0ae4a6c64abcce.mesh"]
+
+source_file="res://assets/Glass/glass-obj.obj"
+dest_files=["res://.godot/imported/glass-obj.obj-d7e056b0592a6b301a0ae4a6c64abcce.mesh", "res://.godot/imported/glass-obj.obj-d7e056b0592a6b301a0ae4a6c64abcce.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

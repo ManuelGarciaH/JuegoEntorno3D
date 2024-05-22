@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c1lqfooy2qhq3"
+path="res://.godot/imported/cup OBJ.obj-08312d04705228df6e72b11dcc25fbfd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cup OBJ.obj-08312d04705228df6e72b11dcc25fbfd.mesh"]
+
+source_file="res://assets/Cup/cup OBJ.obj"
+dest_files=["res://.godot/imported/cup OBJ.obj-08312d04705228df6e72b11dcc25fbfd.mesh", "res://.godot/imported/cup OBJ.obj-08312d04705228df6e72b11dcc25fbfd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

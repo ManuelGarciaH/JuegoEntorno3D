@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://db3efnsgn2dbm"
+path="res://.godot/imported/10907_Plastic_cup_v2_L3.obj-23624ff48e5fdfebdf5050c7d560c584.mesh"
+
+[deps]
+
+files=["res://.godot/imported/10907_Plastic_cup_v2_L3.obj-23624ff48e5fdfebdf5050c7d560c584.mesh"]
+
+source_file="res://assets/Plastic_cup_v2_L3.123c043f6ae6-543e-40a0-9771-5a02721edcdf/10907_Plastic_cup_v2_L3.obj"
+dest_files=["res://.godot/imported/10907_Plastic_cup_v2_L3.obj-23624ff48e5fdfebdf5050c7d560c584.mesh", "res://.godot/imported/10907_Plastic_cup_v2_L3.obj-23624ff48e5fdfebdf5050c7d560c584.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
